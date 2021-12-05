@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+.body-fill {
+    overflow: hidden;
+}
+.description {
+    max-width: 600px;
+    padding-left: 2rem;
+    *,
+    & {
+        font-style: italic;
+    }
+}
+.button {
+    padding: 0.2rem 0.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0.5rem 2rem;
+}
